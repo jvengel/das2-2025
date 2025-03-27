@@ -145,6 +145,8 @@ Não posso esperar mintuos
 S3 on outposts
 
 7. Aula 24/03/2025
+
+
 Configurando Amazon S3 Lifecycle Are a set of rules that define actions that Amazon s3 applies to a group of objects.
 
 Transition actions transition to another storage class
