@@ -143,3 +143,41 @@ S3 Glacier instant Retrieval
 Não posso esperar mintuos
 
 S3 on outposts
+
+7. Aula 24/03/2025
+Configurando Amazon S3 Lifecycle Are a set of rules that define actions that Amazon s3 applies to a group of objects.
+
+Transition actions transition to another storage class
+Expiration action define when objects expire.
+Set an S3 lifecycle police -> Data will automatically transfer to a different storage class without any changes to your application.
+
+Prefixo: Exemplo: *.jpg(Aceitamos tudo que contenham a extensão .jpg)
+
+Para o ciclo de vida, nós escolhemos quais rules definimos para o lifecycle do S3.
+
+CORS: Uma proteção para o seus arquivos(Objects)
+
+Configurando CORS no S3
+
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "http://127.0.0.1:5500"
+        ],
+        "ExposeHeaders": [
+            "x-amz-server-side-encryption",
+            "x-amz-request-id",
+            "x-amz-id-2"
+        ],
+        "MaxAgeSeconds": 3000
+    }
+]
