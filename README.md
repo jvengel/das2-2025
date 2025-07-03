@@ -199,10 +199,14 @@ Aula 12/05 – Laboratórios Práticos
 Laboratórios Canvas
 Guided Lab: Creating a Virtual Private Cloud ✔️ Nota: 50.4/56
 Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️ Nota: 45/56
+
+
 Aula 15/05 – Reforço de VPC
 Laboratórios Canvas (Revisão e prática)
 Guided Lab: Creating a Virtual Private Cloud ✔️ Nota: 50.4/56
 Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️ Nota: 45/56
+
+
 Aula 19/05 – Conectividade entre Redes
 VPC Peering
 Permite a comunicação entre duas VPCs, mesmo em contas ou regiões diferentes. Ideal para integrar diferentes ambientes de forma segura e privada.
@@ -223,6 +227,7 @@ STS (Security Token Service): Gera credenciais temporárias seguras com validade
 AWS Cognito
 Serviço de gerenciamento de identidade para autenticação de usuários em aplicações web e mobile. Suporta login com redes sociais e provedores externos.
 
+
 Aula 29/05 – Criptografia
 Criptografia Simétrica
 Usa a mesma chave para criptografar e descriptografar. Rápida, ideal para dados armazenados. Exemplo: AES.
@@ -230,20 +235,26 @@ Usa a mesma chave para criptografar e descriptografar. Rápida, ideal para dados
 Criptografia Assimétrica
 Utiliza um par de chaves (pública e privada). Mais segura para troca de dados entre partes. Exemplo: RSA.
 
+
 Aula 09/06 – Alta Disponibilidade
 Laboratórios Canvas
 Guided Lab: Creating a Highly Available Environment ✔️ Nota: 41.07/56
 Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️ Nota: 56/56
+
+
 Aula 12/06 – Continuação da Alta Disponibilidade
 Laboratórios Canvas
 Guided Lab: Creating a Highly Available Environment ✔️ Nota: 41.07/56
 Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️ Nota: 56/56
+
+
 Aula 16/06 – Balanceamento e Resolução de Nomes
 Load Balancer
 Distribui automaticamente o tráfego entre várias instâncias para garantir desempenho e tolerância a falhas. Tipos: ALB, NLB, GLB.
 
 DNS (Domain Name System)
 Resolve nomes de domínio em endereços IP. O serviço Amazon Route 53 fornece DNS escalável, seguro e com integração à AWS.
+
 
 Aula 23/06 – Infraestrutura como Código (IaC)
 IaC (Infrastructure as Code)
