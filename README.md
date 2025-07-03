@@ -183,3 +183,72 @@ Configurando CORS no S3
         "MaxAgeSeconds": 3000
     }
 ]
+
+Segundo Bimestre
+Aula 05/05 – Redes Básicas na Nuvem
+VPC (Virtual Private Cloud)
+Cria uma rede isolada dentro da AWS, onde você pode lançar recursos de forma segura. Permite total controle sobre IPs, sub-redes, rotas e segurança.
+
+CIDR (Classless Inter-Domain Routing)
+Define o bloco de endereços IP da VPC (ex: 10.0.0.0/16). Um número menor após a barra representa mais IPs disponíveis.
+
+Subnet Pública
+Sub-rede com acesso direto à internet através de um Internet Gateway. Utilizada para recursos que precisam estar acessíveis externamente, como servidores web.
+
+Aula 12/05 – Laboratórios Práticos
+Laboratórios Canvas
+Guided Lab: Creating a Virtual Private Cloud ✔️ Nota: 50.4/56
+Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️ Nota: 45/56
+Aula 15/05 – Reforço de VPC
+Laboratórios Canvas (Revisão e prática)
+Guided Lab: Creating a Virtual Private Cloud ✔️ Nota: 50.4/56
+Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️ Nota: 45/56
+Aula 19/05 – Conectividade entre Redes
+VPC Peering
+Permite a comunicação entre duas VPCs, mesmo em contas ou regiões diferentes. Ideal para integrar diferentes ambientes de forma segura e privada.
+
+AWS VPN Site-to-Site
+Conexão criptografada entre a AWS e um data center local (on-premises) via internet pública.
+
+AWS Direct Connect
+Conexão física dedicada entre a AWS e o seu ambiente local. Garante menor latência e maior estabilidade em comparação com VPN.
+
+Aula 26/05 – Identidade e Acesso
+IAM Groups
+Conjunto de usuários IAM com políticas de permissão aplicadas em grupo, facilitando o gerenciamento de acesso.
+
+IAM Roles + AWS STS
+Roles: Concedem permissões temporárias a usuários, serviços ou contas.
+STS (Security Token Service): Gera credenciais temporárias seguras com validade limitada.
+AWS Cognito
+Serviço de gerenciamento de identidade para autenticação de usuários em aplicações web e mobile. Suporta login com redes sociais e provedores externos.
+
+Aula 29/05 – Criptografia
+Criptografia Simétrica
+Usa a mesma chave para criptografar e descriptografar. Rápida, ideal para dados armazenados. Exemplo: AES.
+
+Criptografia Assimétrica
+Utiliza um par de chaves (pública e privada). Mais segura para troca de dados entre partes. Exemplo: RSA.
+
+Aula 09/06 – Alta Disponibilidade
+Laboratórios Canvas
+Guided Lab: Creating a Highly Available Environment ✔️ Nota: 41.07/56
+Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️ Nota: 56/56
+Aula 12/06 – Continuação da Alta Disponibilidade
+Laboratórios Canvas
+Guided Lab: Creating a Highly Available Environment ✔️ Nota: 41.07/56
+Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️ Nota: 56/56
+Aula 16/06 – Balanceamento e Resolução de Nomes
+Load Balancer
+Distribui automaticamente o tráfego entre várias instâncias para garantir desempenho e tolerância a falhas. Tipos: ALB, NLB, GLB.
+
+DNS (Domain Name System)
+Resolve nomes de domínio em endereços IP. O serviço Amazon Route 53 fornece DNS escalável, seguro e com integração à AWS.
+
+Aula 23/06 – Infraestrutura como Código (IaC)
+IaC (Infrastructure as Code)
+Permite definir e provisionar a infraestrutura via código, garantindo consistência, automação e versionamento.
+Ferramentas populares:
+
+AWS CloudFormation (nativo da AWS)
+Terraform (multi-cloud)
